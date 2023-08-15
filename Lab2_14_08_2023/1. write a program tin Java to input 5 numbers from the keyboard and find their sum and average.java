@@ -4,7 +4,7 @@ public class Problem1 {
         float num;
         float sum = 0;
         float average=0;
-        System.out.println("Enter the ");
+       
         Scanner sc = new Scanner(System.in);
         for (int i=1; i<=5; i++){
             System.out.print("Enter the number  = ");
