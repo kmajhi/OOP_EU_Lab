@@ -33,3 +33,47 @@ public class Main {
         sc.close();
     }
 }
+
+//Another way
+
+/* 
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int inputNum;
+
+        do {
+            int sum = 0;
+            for (int i = 1; i <= 5; i++) {
+                System.out.print("Enter the number: ");
+                int x = sc.nextInt();
+                sum += x;
+            }
+            double average = (double) sum / 5;
+            System.out.println("The sum of the 5 numbers is: " + sum);
+            System.out.println("The average of the input numbers is: " + average);
+
+            System.out.print("Do you want to continue (Y/N)? (1/2): ");
+            inputNum = sc.nextInt();
+
+
+
+
+            while (inputNum != 1 && inputNum != 2) {
+                    System.out.println("Wrong input. Enter 1 to continue or 2 to exit");
+                    System.out.print("Do you want to continue (Y/N)? (1/2): ");
+                    inputNum = sc.nextInt();
+            }
+
+            if (inputNum == 2) {
+                System.out.println("Thank you!");
+                break;
+            }
+
+        } while (inputNum != 2);
+    }
+}
+
+*/
