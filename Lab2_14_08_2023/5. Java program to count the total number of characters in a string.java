@@ -5,6 +5,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the name: ");
         String inputCharacter = sc.nextLine();
+        
+        /*
+        To count characters without the spaces in the string, the below code can be used:
+        String newLength = inputCharacter.replace(" ", "");
+        System.out.println("The total number of characters in the string is: " + newLength.length());
+        */
+        
         System.out.println("The total number of characters in the string is: " + inputCharacter.length());
     }
 }
