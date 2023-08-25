@@ -31,4 +31,4 @@ public class Problem6 {
             } while (true);
         }
     }
-}
+} 
