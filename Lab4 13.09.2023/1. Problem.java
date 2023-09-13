@@ -22,7 +22,7 @@ class Wednesday{
     }
 
     public int getSalary() {
-        if (salary < 50000 && 80000 >= 60) {
+        if (salary < 50000 || salary>=80000) {
             throw new IllegalArgumentException("The salary is out of range");
         } else{
             return salary;
