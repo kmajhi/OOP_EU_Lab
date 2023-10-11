@@ -1,5 +1,3 @@
-package overloading;
-
 public class CheckRectangle {
     CheckRectangle(int x){
         System.out.println("This is a square");
