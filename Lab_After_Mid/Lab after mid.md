@@ -4,5 +4,6 @@
 
   # First Lab after Mid exam
   * Constructor overloading
-    * simple brain storming tactics 
+    * simple brain storming tactics
+    * method call within constructor
 
