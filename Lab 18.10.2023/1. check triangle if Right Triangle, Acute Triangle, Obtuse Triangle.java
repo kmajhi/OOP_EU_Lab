@@ -1,3 +1,5 @@
+//Task: Modify this code to call the method in the constructor. 
+
 import java.util.Scanner;
 
 class Practice {
